@@ -1,0 +1,552 @@
+/**
+#051e34  color
+#ffbe00  font back
+#ffc513  image back
+ffc512
+#f6f7f9 background
+color
+f0f1f3
+cddbdc
+0194fe
+2774c6
+*/
+
+body{
+ 
+    text-transform: capitalize;
+    background-color: #f6f7f9;
+    color: #051e34;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body button{
+    letter-spacing: 1px;
+}
+.head{
+    background-color: #051e34;
+   
+    color: #fff;
+    text-align: center;
+}
+
+/*START NAV BAAAAR*/
+.navbar{
+    background-color:#ffbe00;
+    color: black;
+}
+.navbar .collapse {
+    color: black;
+}
+
+.navbar-brand{
+    
+    font-size: 27px;
+    font-weight: 500;
+
+}
+.navbar-brand span:first-child{
+color: #051e34;
+text-transform: uppercase;
+font-weight: bold;
+
+}
+.navbar-brand span:last-child{
+    color: #051e34;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.navbar-nav .nav-link{
+font-size: 14px;
+font-weight: bold;
+text-transform: uppercase;
+color: black;
+}
+.navbar-nav .active > .nav-link{
+    color: #ec1c23  !important
+
+
+}
+/*END NAV BAAAAR*/
+/*START ABOUT INTROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO**/
+    .about-intro{
+        padding: 80px 0px;
+    }
+   
+
+    .about-intro h2{
+        margin-top: 10px;
+        font-weight: bold;
+        font-family:  Helvetica;
+    }
+   
+    
+    @media(max-width:576px){
+        .about-intro h2 {
+            font-size:20px;
+        }   
+    }
+    .about-intro span{
+        background-color:#ffc513  ;
+        width: 40%;
+        text-align: center;
+        padding: 1px ;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .about-intro p{
+        margin-top: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        color: #3e454d;
+        letter-spacing: 1px;
+    }
+
+
+
+.about-intro ul li {
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.about-intro button{
+    background-color: #ff4c60;
+    border:1px solid #ff4c60;
+    border-radius: 20px;
+    padding: 7px 30px;
+    text-transform: capitalize;
+
+}
+.about-intro .go-dwon{
+    margin-top: 100px;
+}
+.about-intro .go-dwon .scroll-donw-icon .icon{
+    margin-top: 20px;
+ height: 20px;
+ width: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+
+} /*END ABOUT INTROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO**/
+
+/********************************************************************************************/
+/*START ABOUT ME AND RESUME**/
+
+.about-me{
+    padding: 100px 0;
+}
+.about-me h1 {
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+@media(max-width:576px){
+    .about-me h1 {
+        font-size: 20px;
+        margin-bottom: 30px;
+
+    }   
+}
+/*f0f1f3
+cddbdc
+0194fe
+2774c6*/
+.about-me img{
+    width: 150px; 
+     border-radius: 50%;
+}
+@media(max-width:768px){
+    .about-me img{
+        width: 120px; 
+         
+    }   
+}
+
+.about-me .card{
+    padding: 20px ;
+    background-color: #f0f1f3;
+    box-shadow: 10px 10px 5px gray;
+
+
+}
+.about-me .card .body-card {
+    background-color: #f0f1f3;
+    
+}
+
+.about-me .card .body-card p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        color: #3e454d;
+        letter-spacing: 1px;
+    color: #051e34;
+}
+@media(max-width:576px){
+    .about-me .card .body-card p{
+        font-size: 12px;
+    }   
+}
+.about-me .card .body-card button{
+    background-color: #ffc512;
+    border:1px solid #ffc512;
+    border-radius: 20px;
+    padding: 5px 40px;  
+    text-transform: capitalize;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+@media(max-width:576px){
+    .about-me .card .body-card button{
+        padding: 2px 20px;  
+        margin-top: 10px;
+
+
+    }   
+}
+
+.about-me .card .body-card .progress{
+    margin-bottom: 5px; background-color: #fff;
+    border: 1px solid #051e34;
+}
+
+.about-me .card .body-card .progress-info h6{
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+@media(max-width:576px){
+.about-me .card .body-card .progress-info h6{
+font-size: 14px;
+
+}}
+
+.about-me .about-me-stistics{
+    margin-top: 50px;
+}
+.about-me .about-me-stistics  .stat{
+    margin-bottom: 10px;
+}
+.about-me .about-me-stistics  .stat .icon{
+    margin-bottom: 8px;
+    border-radius: 0%;
+} 
+.about-me .about-me-stistics  .stat h5 {
+    font-weight: bold;
+
+} 
+
+/*  ***        **<!--end about me  section**********************************************/
+/***************************************************************************************************/
+
+/*<!--start services  section*******/
+.services h1{
+    margin-bottom:30px;
+    font-weight: bold;
+}
+@media(max-width:576px){
+    .services h1 {
+        font-size: 20px;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }   
+}
+
+.services .card{
+    background-color: rgb(161, 236, 85);
+    color: black;
+    padding: 10px;
+margin-bottom: 7px;
+ border: 3px dotted #051e34;
+
+}
+
+.services .card .ddd{
+    background-color: darkblue;
+    width: 20%;
+    color: wheat;
+    font-weight: bold;
+    display: none;
+    margin: auto;
+}
+
+    .services .card .icon{
+        margin-bottom: 15px;
+    } 
+    
+    .services .card  h5{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: bold; 
+    } 
+      
+    .services .card  p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    } 
+     
+
+
+    .services h6{
+        margin-top:20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+    }
+    .services h6 a{
+        color:#ffc512 ;
+        font-weight: bolder;
+        text-decoration: none;
+        
+    }
+/*<!--end services  section*******/
+/*******************************************************************************************/
+
+/*******************************************************************************/
+
+/******************--start  pricing plans section***********************/
+.pricing-plans{
+    color: #051e34;
+    padding: 50px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+@media(max-width:576px){
+    .pricing-plans  {
+        padding: 30px 0px;
+    }   
+}
+
+.pricing-plans h1{
+    color: #051e34;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+@media(max-width:576px){
+    .pricing-plans h1{
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }   
+}
+.pricing-plans .card{
+   
+    background-color: #f0f1f3;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 2px dotted #051e34;
+
+
+}
+@media(max-width:576px){
+.pricing-plans .card{
+
+width: 90%;
+margin: auto;
+margin-bottom: 10px;
+
+}}
+.head{
+    background-color: #051e34;
+   
+    color: #fff;
+    text-align: center;
+}
+.head h2{
+    margin-bottom: 40px;
+}
+.head span{
+    background-color: chartreuse;
+    padding: 20px;
+    border-radius: 50%;
+    border: 4px solid white;
+    font-size: 25px;
+    font-weight: bold;
+  
+}
+.pricing-plans .card .body-card {
+    margin-top: 40px;
+    color: #051e34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.pricing-plans .card .body-card ul li{
+ border-bottom: 1px solid grey;
+ width: 90%;
+ margin: auto;
+ margin-top: 10px;
+}
+
+
+.pricing-plans .card .body-card p{
+    margin-bottom: 20px;
+
+}
+.pricing-plans .card .body-card h4 {
+    margin-top: 20px;
+
+    font-size: 30px;
+
+    }
+.pricing-plans .card .body-card h4 span{
+font-size: 15px;
+}
+
+.pricing-plans .card .body-card  button{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: #ffc512;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #fff;
+}
+/******************--end  pricing plans section***********************/
+/***************************************************************************/
+
+
+    /******************************************************/
+/*start latest-post section*/
+.latest-post{
+    padding: 60px 0px;
+    color: #051e34;
+    
+}
+.latest-post h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+   
+} 
+@media(max-width:576px){
+    .latest-post h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }   
+}
+.latest-post .card{
+    margin: auto;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    border: 1px dotted #051e34;
+}
+.latest-post .card button{ 
+background-color: #ffc512;
+border:1px solid #ffc512;
+border-radius: 20px;
+padding: 5px 25px;  
+text-transform: capitalize;
+margin-top: 20px;
+font-weight: bold;
+color: white;
+}
+
+@media(max-width:576px){
+    .latest-post .card buttonn{
+    padding: 2px 10px;  
+    margin-top: 10px;
+
+
+}   
+}
+/*end latest-post section*/
+/********************************************************************************************/
+.contact{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+}
+
+.contact H1{
+    font-weight: bold;
+}
+.contact p a{
+    color: #ffc512;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact input{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border:1px solid #2774c6;
+    margin-bottom: 10px;
+    background-color:white;
+     
+}
+.contact textarea{
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border:1px solid #2774c6;
+    background-color: white;
+}
+.contact button{
+    color: white;
+    background-color: #ff4c60;
+    border:1px solid #ff4c60;
+    border-radius: 20px;
+    padding: 5px 40px;  
+    text-transform: capitalize;
+margin-bottom: 10px;
+font-weight: bold;
+letter-spacing: 1px;
+}
+@media(max-width:576px){
+    .contact button{
+        color: white;
+        background-color: #ff4c60;
+        border:1px solid #ff4c60;
+        border-radius: 20px;
+        padding: 5px 40px;  
+        text-transform: capitalize;
+    }}
+    .contact label{
+        font-weight: bold;
+    }
+/***************************************************************************/
+.foooter{
+    margin-top: 30px;
+    padding: 10px 0px;
+    background-color: #051e34;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+}
+.foooter p{
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+}
+.foooter ul li{
+    margin-top: 20px;
+    display: inline-block;
+    margin-right: 15px;
+    cursor: pointer
+}
+
+
+
+
+
+
+
+
+
+
+/************************************************************************************************/
+/* start scroll to top*******/
+#scroll-to-top{
+   
+    color: #ffc512;
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+    z-index: 9999;
+   cursor: pointer;
+   background-color: #051e34;
+}
+/* end scroll to top*******/
+/*******************************************************************************************************/
