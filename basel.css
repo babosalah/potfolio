@@ -542,8 +542,8 @@ margin-top: 20px;
    
     color: #ffc512;
     position: fixed;
-    right: 14px;
-    bottom: 20px;
+    right: 16px;
+    bottom: 100px;
     z-index: 9999;
    cursor: pointer;
    background-color: #051e34;
