@@ -234,29 +234,29 @@ font-size: 14px;
 /*  ***        **<!--end about me  section**********************************************/
 /***************************************************************************************************/
 
-/*<!--start services  section*******/
-.services h1{
+/*<!--start service  section*******/
+.service h1{
     margin-bottom:30px;
     font-weight: bold;
 }
 @media(max-width:576px){
-    .services h1 {
+    .service h1 {
         font-size: 20px;
         margin-bottom: 30px;
         font-weight: bold;
     }   
 }
 
-.services .card{
-    background-color: rgb(161, 236, 85);
+.service .card{
+   
     color: black;
     padding: 10px;
-margin-bottom: 7px;
- border: 3px dotted #051e34;
+   margin-bottom: 10px;
+   border: 3px dotted #051e34;
 
 }
 
-.services .card .ddd{
+.service .card .ddd{
     background-color: darkblue;
     width: 20%;
     color: wheat;
@@ -265,33 +265,33 @@ margin-bottom: 7px;
     margin: auto;
 }
 
-    .services .card .icon{
+    .service .card .icon{
         margin-bottom: 15px;
     } 
     
-    .services .card  h5{
+    .service .card  h5{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     font-weight: bold; 
     } 
       
-    .services .card  p{
+    .service .card  p{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
     } 
      
 
 
-    .services h6{
+    .service h6{
         margin-top:20px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 
     }
-    .services h6 a{
+    .service h6 a{
         color:#ffc512 ;
         font-weight: bolder;
         text-decoration: none;
         
     }
-/*<!--end services  section*******/
+/*<!--end service  section*******/
 /*******************************************************************************************/
 
 /*******************************************************************************/
@@ -325,7 +325,7 @@ margin-bottom: 7px;
    
     background-color: #f0f1f3;
     border-radius: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     border: 2px dotted #051e34;
 
 
