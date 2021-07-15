@@ -504,17 +504,16 @@ letter-spacing: 1px;
     background-color: #051e34;
     color: #fff;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-margin-top: 20px;
+   margin-top: 20px;
 }
 .foooter p{
     letter-spacing: 1px;
-    font-weight: bold;
     margin-top: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 
 }
 .foooter ul li{
-    margin-top: 20px;
+    margin-top: 15px;
     display: inline-block;
     margin-right:10px;
     cursor: pointer
