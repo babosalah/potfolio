@@ -548,7 +548,7 @@ letter-spacing: 1px;
     color: #ffc512;
     position: fixed;
     right: 16px;
-    bottom: 20px;
+    bottom: 10px;
     z-index: 9999;
    cursor: pointer;
    background-color: #051e34;
