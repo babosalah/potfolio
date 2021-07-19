@@ -1,16 +1,4 @@
 
-/*$(document).ready(function(){
-
-    $(".card").mouseover(
-        function(){
-    
-           $(".ddd").show(3000).hide(3000);
-         //  $("p").show();
-         //$("p").hide() ; 
-    
-        });
-    });
-*/
 $(function(){
 
    
@@ -22,16 +10,7 @@ $(function(){
      });
     
     
-     //trigger nice croll
-     $('html').niceScroll({
-    
-        cursorcolor: '#051e34' ,
-        cursorwidth: '10px',
      
-        corsorborderradius:0,
-        zindex:99999
-    
-     });
      
     //smooth scroll
     //1
