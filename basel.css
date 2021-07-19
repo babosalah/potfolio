@@ -253,7 +253,7 @@ font-size: 14px;
     color: black;
     padding: 10px;
    margin-bottom: 10px;
-   border: 3px dotted #051e34;
+   border: 1px solid #051e34;
 
 }
 
@@ -327,7 +327,7 @@ font-size: 14px;
     background-color: #f0f1f3;
     border-radius: 10px;
     margin-bottom: 50px;
-    border: 2px dotted #051e34;
+    border: 1px solid #051e34;
 
 
 }
@@ -424,7 +424,7 @@ font-size: 15px;
     margin: auto;
     margin-bottom: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    border: 1px dotted #051e34;
+    border: 1px solid #051e34;
 }
 .latest-post .card button{ 
 background-color: #ffc512;
@@ -547,8 +547,8 @@ letter-spacing: 1px;
    
     color: #ffc512;
     position: fixed;
-    right: 16px;
-    bottom: 10px;
+    right: 14px;
+    bottom: 20px;
     z-index: 9999;
    cursor: pointer;
    background-color: #051e34;
